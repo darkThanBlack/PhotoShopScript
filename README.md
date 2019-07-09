@@ -6,8 +6,8 @@
 * [基础知识](#基础知识)
 * [脚本使用](#脚本使用)
 * [脚本介绍](#脚本介绍)
-  * [APP_ICON.jsx](#app_icon.jsx)
-  * [APP_LaunchImage.jsx](#app_launchimage.jsx)
+  * [APP_ICON.jsx](#app_iconjsx)
+  * [APP_LaunchImage.jsx](#app_launchimagejsx)
 * [开发资源](#开发资源)
 * [LICENSE](#LICENSE)
 
