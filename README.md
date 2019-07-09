@@ -2,7 +2,14 @@
 
 ![](<https://img.shields.io/badge/license-WTFPL-lightgrey.svg>) ![](<https://img.shields.io/badge/environment-PhotoShop-blue.svg>) ![](<https://img.shields.io/badge/program-JavaScript-brightgreen.svg>) ![](<https://img.shields.io/badge/version-1.0.0-brightgreen.svg>)
 
-[TOC]
+* [简单说明](#简单说明)
+* [基础知识](#基础知识)
+* [脚本使用](#脚本使用)
+* [脚本介绍](#脚本介绍)
+  * [APP_ICON.jsx](#app_icon.jsx)
+  * [APP_LaunchImage.jsx](#app_launchimage.jsx)
+* [开发资源](#开发资源)
+* [LICENSE](#LICENSE)
 
 ### 简单说明
 
@@ -66,7 +73,7 @@
 
 ### 脚本介绍
 
-* **APP_ICON.jsx**
+* #### APP_ICON.jsx
 
   * **一句话说明**  
 
@@ -95,16 +102,16 @@
 
       * 如果没有出现 alpha 选项，则无需进行任何处理。
 
-* **APP_LaunchImage.jsx**
+* #### APP_LaunchImage.jsx
 
-  * 一句话说明
+  * **一句话说明**
     * 快速生成所有尺寸的 APP 启动页文件。
-  * 详细介绍
+  * **详细介绍**
     * 默认输出 *iOS7.0 and Later* 的 *竖屏* 启动页文件，Android 所需的启动页尺寸一般能够同时满足。
     * 保存输出图片时，默认设置为 *png，24位，无交错* 。
     * 启动页内容默认的处理方式为 *等比缩放图层至新大小，直至图像较长的一边撑满画布* 。
     * 生成新文件时，会覆盖输出目录下的同名文件，建议新建一个文件夹来接收输出的文件。
-  * 注意事项
+  * **注意事项**
     * 由于目前对内容的处理方式为简单地按百分比大小等比缩放原始启动页的图层，未设置在低分辨率放大至高分辨率时的双三次插值等平滑算法，所以建议在内容可以满足需求时，向脚本优先传入较大尺寸的启动页，避免损失精度。
     * 简单缩放一般情况下只能在页面内容简单的时候表现良好，建议每次手动检查一下输出内容，避免视觉效果不满足要求。
 
